@@ -7,6 +7,7 @@ paperToss.Preload.prototype = {
         this.load.image('background', 'assets/images/background.png');
         this.load.image('player', 'assets/images/player.png');
         this.load.image('basket', 'assets/images/basket.png');
+        this.load.image('projectile', 'assets/images/paper.png');
     
         this.preloadBar = this.add.sprite(this.game.world.centerX, this.game.world.centerY+ 128, 'preloadBar');
         this.preloadBar = this.preloadBar.anchor.setTo(0.5);
